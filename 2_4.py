@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 import math
  
-link = "http://suninjuly.github.io/explicit_wait2.html"
+link = 'http://suninjuly.github.io/explicit_wait2.html'
 browser = webdriver.Chrome()
 browser.get(link)
 browser.implicitly_wait(15)
